@@ -2,10 +2,10 @@
 FROM python:2.7-slim
 
 # Set the working directory to /app
-WORKDIR /app
+WORKDIR /app2
 
 # Copy the current directory contents into the container at /app
-ADD . /app
+ADD . /app2
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
